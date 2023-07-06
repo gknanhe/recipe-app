@@ -1,0 +1,59 @@
+.image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.AccoladeBorder {
+  box-sizing: border-box;
+  /* padding: 30px; */
+  height: 100%;
+  position: relative;
+  padding: 4px;
+  border-radius: 4px;
+  background: linear-gradient(
+    165deg,
+    rgb(105, 216, 202) 0%,
+    rgb(53, 146, 255) 50%,
+    rgb(156, 49, 255) 100%
+  );
+  margin: 10px;
+}
+
+.recipe {
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  /* box-shadow: 0px 5px 20px black; */
+  backdrop-filter: blur(15px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #151728de;
+  align-items: center;
+  min-width: 40%;
+  padding: 0 10px;
+  /* margin-bottom: 1px; */
+}
+.recipeContent {
+  background: #151728de;
+  backdrop-filter: blur(15px);
+  padding: 10px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredient li {
+  text-align: left;
+  /* padding-left: 20px; */
+}
